@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<router-outlet />`
+  template: `
+  <app-header />
+  <router-outlet />
+  `,
 })
 export class AppComponent {
   title = 'curso-angular-dark-theme';
